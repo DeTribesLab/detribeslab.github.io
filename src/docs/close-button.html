@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <title>Carousel | Geeks - Bootstrap 5 Template</title>
+    @@include("../partials/head.html")
+
+
+
+</head>
+
+<body>
+
+    <div class="docs-main-wrapper">
+        @@include("../partials/doc-navbar.html")
+        <!-- Left sidebar -->
+        @@include("../partials/docs-sidenav.html")
+        <!-- Wrapper  -->
+        <div class="docs-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-xl-1 col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 px-5 px-xl-0">
+                        <div class="docs-content">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="doc-section-head mb-5" id="intro">
+                                        <h1 class="doc-section-head-title">Close Button</h1>
+                                        <p class="doc-section-head-text">A generic close button for dismissing content like modals and alerts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close button -->
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="mb-4">
+                                        <h3 class="doc-section-head-title">Examples</h3>
+                                        <p class="mb-0">Provide an option to dismiss or close a component with <code>.btn-close</code>. Default styling is limited, but highly customizable. Modify the Sass variables to replace the default <code>background-image</code>. <strong>Be sure to include text for screen readers</strong>, as we’ve done with <code>aria-label</code>.</p>
+                                    </div>
+                                    <div class="card">
+                                        <ul class="nav nav-line-bottom mb-3" id="pills-tab-closeButton" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="pills-closeButton-design-tab" data-bs-toggle="pill" href="#pills-closeButton-design" role="tab" aria-controls="pills-closeButton-design" aria-selected="true">Design</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="pills-closeButton-html-tab" data-bs-toggle="pill" href="#pills-closeButton-html" role="tab" aria-controls="pills-closeButton-html" aria-selected="false">HTML</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content p-4" id="pills-tabContent-closeButton">
+                                            <div class="tab-pane tab-example-design fade show active" id="pills-closeButton-design" role="tabpanel" aria-labelledby="pills-closeButton-design-tab">
+                                                <button type="button" class="btn-close" aria-label="Close"><i class="fe fe-x-circle"></i></button>
+                                            </div>
+                                            <div class="tab-pane tab-example-html fade " id="pills-closeButton-html" role="tabpanel" aria-labelledby="pills-closeButton-html-tab">
+                                                <div class="copy-content copy-content-height">
+                                                    <div class="code-toolbar">
+                                                        <pre class=" language-markup" tabindex="0"><code class="  language-markup">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fe fe-x-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close button -->
+                            <hr class="my-5">
+                                <!-- close button -->
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="mb-4">
+                                            <h3 class="doc-section-head-title">Disabled state</h3>
+                                            <p>Disabled close buttons change their <code>opacity</code>. We’ve also applied <code>pointer-events: none</code> and <code>user-select: none</code> to preventing hover and active states from triggering.</p>
+                                        </div>
+                                        <div class="card">
+                                            <ul class="nav nav-line-bottom mb-3" id="pills-tab-disabledButton" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-disabledButton-design-tab" data-bs-toggle="pill" href="#pills-disabledButton-design" role="tab" aria-controls="pills-disabledButton-design" aria-selected="true">Design</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-disabledButton-html-tab" data-bs-toggle="pill" href="#pills-disabledButton-html" role="tab" aria-controls="pills-disabledButton-html" aria-selected="false">HTML</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content p-4" id="pills-tabContent-disabledButton">
+                                                <div class="tab-pane tab-example-design fade show active" id="pills-disabledButton-design" role="tabpanel" aria-labelledby="pills-disabledButton-design-tab">
+                                                    <button type="button" class="btn-close" disabled aria-label="Close"><i class="fe fe-x-circle"></i></button>
+                                                </div>
+                                                <div class="tab-pane tab-example-html fade " id="pills-disabledButton-html" role="tabpanel" aria-labelledby="pills-disabledButton-html-tab">
+                                                    <div class="copy-content copy-content-height">
+                                                        <div class="code-toolbar">
+                                                            <pre class="language-markup" tabindex="0"><code class="language-markup"> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn-close<span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fe fe-x-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span></code></pre>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- close button -->
+                                <hr class="my-5">
+                                <!-- close button -->
+                                <div class="row">
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <div class="mb-4">
+                                            <h3 class="doc-section-head-title">White variant</h3>
+                                            <p>Change the default <code>.btn-close</code> to be white with the <code>.btn-close-white</code> class. This class uses the <code>filter</code> property to invert the <code>background-image</code>.</p>
+                                        </div>
+                                        <div class="card">
+                                            <ul class="nav nav-line-bottom mb-3" id="pills-tab-whiteVarient" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="pills-whiteVarient-design-tab" data-bs-toggle="pill" href="#pills-whiteVarient-design" role="tab" aria-controls="pills-whiteVarient-design" aria-selected="true">Design</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="pills-whiteVarient-html-tab" data-bs-toggle="pill" href="#pills-whiteVarient-html" role="tab" aria-controls="pills-whiteVarient-html" aria-selected="false">HTML</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content p-4" id="pills-tabContent-whiteVarient">
+                                                <div class="tab-pane tab-example-design fade show active bg-dark" id="pills-whiteVarient-design" role="tabpanel" aria-labelledby="pills-whiteVarient-design-tab">
+                                                    <button type="button" class="btn-close btn-close-white" aria-label="Close"><i class="fe fe-x-circle"></i></button>
+<button type="button" class="btn-close btn-close-white" disabled aria-label="Close"><i class="fe fe-x-circle"></i></button>
+                                                </div>
+                                                <div class="tab-pane tab-example-html fade " id="pills-whiteVarient-html" role="tabpanel" aria-labelledby="pills-whiteVarient-html-tab">
+                                                    <div class="copy-content copy-content-height">
+                                                        <div class="code-toolbar">
+                                                            <pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fe fe-x-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                                                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn-close btn-close-white<span class="token punctuation">"</span></span> <span class="token attr-name">disabled</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Close<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fe fe-x-circle<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span></code></pre>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- close button -->
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================================================== -->
+    <!-- end main wrapper -->
+    <!-- ============================================================== -->
+    @@include("../partials/scripts.html")
+
+</body>
+
+</html>
